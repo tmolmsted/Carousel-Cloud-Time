@@ -44,11 +44,12 @@
     });
 
     const dateFormatter = new Intl.DateTimeFormat('en-US', {
-      timeZone: 'America/Chicago',
-      weekday: 'long',
-      year: 'numeric',
-      month: 'long',
-      day: '2-digit'
+  timeZone: 'America/Chicago',
+  month: '2-digit',
+  day: '2-digit',
+  year: 'numeric'
+});
+
     });
 
     function updateClock() {
